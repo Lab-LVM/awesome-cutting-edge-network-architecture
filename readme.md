@@ -22,8 +22,6 @@ we deal with the cutting-edge network of computer vision, starting with the cont
 
 - **ViT vs CNN**: "Do Vision Transformers See Like Convolutional Neural Networks?", NeurIPS, 2021 [[paper](https://arxiv.org/abs/2108.08810)] [[code](https://github.com/AntixK/PyTorch-Model-Compare)] [[summary](summary/ViTvsCNN.md)]
 
-- **ViT vs CNN**: "Do Vision Transformers See Like Convolutional Neural Networks?", NeurIPS, 2021 [[paper](https://arxiv.org/abs/2108.08810)] [[code](https://github.com/AntixK/PyTorch-Model-Compare)] [[summary](summary/ViTvsCNN.md)]
-
 - **How to train ViT**: "How to train your ViT? Data, Augmentation,and Regularization in Vision Transformers", Arxiv 2021 [[paper](https://arxiv.org/abs/2106.10270)] [[code](https://github.com/rwightman/pytorch-image-models/blob/main/timm/models/vision_transformer.py)] [[summary](summary/How_to_train_ViT.md)]
 
 ## Representative Local Attention
