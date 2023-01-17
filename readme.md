@@ -1,58 +1,34 @@
-# Awesome Paper Template
+# Awesome Cutting-Edge Network Architecture
 
-This is an awesome computer vision paper template. Use this template for your own purpose.
-
-Please introduce your project here.
-
-
-
+This repository contains the paper lists of recent computer vision architecture
 ---
 
 ## Overview
 
 - [introduction](#introduction)
-- [paper category 1](#paper-category-1)
-  - [paper subcategory 1](#paper-subcategory-1)
-- [paper category 2](#paper-category-2)
-  - [paper subcategory 1](#paper-subcategory-1)
-
-
+- [Base of Vision Transformer](#Base-of-Vision-Transformer)
+- [Representative Local Attention](#Representative-Local-Attention)
 
 ## Introduction
 
-Please describe your subject in a short paragraph or table or picture.
+The paper lists of recent computer vision architecture.
+we deal with the cutting-edge network of computer vision, starting with the contents of ViT and the difference between CNN and ViT.
 
 
 
-## Paper Category 1
+## Base of Vision Transformer
 
-Please describe this category with easy words.
+- **ViT**: "An Image is Worth 16x16 Words: Transformers for Image Recognetion at Scale", ICLR, 2021 [[paper](https://arxiv.org/abs/2010.11929)] [[code](https://github.com/rwightman/pytorch-image-models/blob/main/timm/models/vision_transformer.py)] [[summary](summary/Vit.md)]
 
+- **ViT vs CNN**: "Do Vision Transformers See Like Convolutional Neural Networks?", NeurIPS, 2021 [[paper](https://arxiv.org/abs/2108.08810)] [[code](https://github.com/AntixK/PyTorch-Model-Compare)] [[summary](summary/ViTvsCNN.md)]
 
+- **ViT vs CNN**: "Do Vision Transformers See Like Convolutional Neural Networks?", NeurIPS, 2021 [[paper](https://arxiv.org/abs/2108.08810)] [[code](https://github.com/AntixK/PyTorch-Model-Compare)] [[summary](summary/ViTvsCNN.md)]
 
-### Paper subcategory 1
+- **How to train ViT**: "How to train your ViT? Data, Augmentation,and Regularization in Vision Transformers", Arxiv 2021 [[paper](https://arxiv.org/abs/2106.10270)] [[code](https://github.com/rwightman/pytorch-image-models/blob/main/timm/models/vision_transformer.py)] [[summary](summary/How_to_train_ViT.md)]
 
-Please describe this subcategory with easy words.
+## Representative Local Attention
+- **Swin Transformer**: "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows", ICCV, 2021 [[paper](https://arxiv.org/abs/2103.14030)] [[code](https://github.com/rwightman/pytorch-image-models/blob/main/timm/models/swin_transformer.py)] [[summary](summary/SwinTransformer.md)]
 
+- **Swin Transformer V2**: "Swin Transformer V2: Scaling Up Capacity and Resolution", CVPR, 2022 [[paper](https://arxiv.org/abs/2111.09883)] [[code](https://github.com/rwightman/pytorch-image-models/blob/main/timm/models/swin_transformer_v2.py)] [[summary](summary/SwinTransformerV2.md)]
 
-
-- **PaperNickName**: "paper title", publication, year [[paper](https://arxiv.org/abs/1512.03385)] [[code](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py)] [[summary](summary/example.md)]
-
-- **ResNet**: "Deep Residual Learning for Image Recognition", CVPR, 2016 [[paper](https://arxiv.org/abs/1512.03385)] [[code](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py)] [[summary](summary/example.md)]
-
-  
-
-## Paper Category 2
-
-Please describe this subcategory with easy words.
-
-
-
-### Paper subcategory 1
-
-Please describe this subcategory with easy words.
-
-
-
-- **PaperNickName**: "paper title", publication, year [[paper](https://arxiv.org/abs/1512.03385)] [[code](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py)] [[summary](summary/example.md)]
-- **ResNet**: "Deep Residual Learning for Image Recognition", CVPR, 2016 [[paper](https://arxiv.org/abs/1512.03385)] [[code](https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py)] [[summary](summary/example.md)]
+- **VOLO**: "VOLO: Vision Outlooker for Visual Recognition", TPAMI(early access), 2022 [[paper](https://arxiv.org/abs/2106.13112)] [[code](https://github.com/rwightman/pytorch-image-models/blob/main/timm/models/volo.py)] [[summary](summary/VOLO.md)]
